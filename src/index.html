@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Dina</title>
+    <link href="./css/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="container mx-auto bg-loving-air w-full">
+      <div
+        id="hero"
+        class="flex flex-col justify-center items-center min-h-screen"
+      >
+        <p class="font-bold text-2xl text-center">WOULD YOU BE MY 💖 DINA?</p>
+        <div class="my-8">
+          <img class="h-32" src="./img/panda-talk.gif" alt="Panda Talk" />
+        </div>
+        <div class="flex text-neutral-200">
+          <button
+            id="btnYes"
+            onclick="clickYes()"
+            class="rounded-md px-4 py-1 mx-4 bg-green-600"
+          >
+            YEZZZ
+          </button>
+          <button
+            id="btnNo"
+            onclick="clickNo()"
+            class="rounded-md px-4 py-1 mx-4 bg-red-600"
+          >
+            No :(
+          </button>
+        </div>
+      </div>
+      <div
+        id="yesDiv"
+        class="hidden flex flex-col justify-center items-center min-h-screen"
+      >
+        <p class="font-bold text-2xl text-center">
+          MAKASIHHH DINA SAYAANGG 💖💖💖💖
+        </p>
+        <div class="my-8">
+          <img class="h-32" src="./img/panda-yes.gif" alt="Panda Happy" />
+        </div>
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
